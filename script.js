@@ -2,7 +2,7 @@ function stringChop(str, size) {
   // your code here
   let ans=[];
   if(str.length==0)
-	  return ans;
+	  return ans.toString();
   str=str.split("");
   
   while(str.length>0){
